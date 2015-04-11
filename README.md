@@ -16,5 +16,5 @@ self.view.backgroundColor = superAwesomeColor.convertHexStringToColor(**"Insert 
 OR <br>
 
 let amazingColor = UIColor() <br>
-self.view.backgroundColor = sophisticatedColor.convertHexToRGB(**YOUR UInt32 Color Hex Code**)
+self.view.backgroundColor = amazingColor.convertHexToRGB(**YOUR UInt32 Color Hex Code**)
 
