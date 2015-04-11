@@ -52,4 +52,4 @@ Silver | ![ScreenShot](/screenshots/silver.png)
 Dim Gray | ![ScreenShot](/screenshots/dimGray.png)
 
 <br>
-If you like it, stars are appreciated. If you want, feel free to fork it too. =]
+If you liked it, stars are appreciated. If you want, feel free to fork it too. =]
