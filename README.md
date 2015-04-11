@@ -8,7 +8,8 @@ How to use this extension file: <br>
 2. Use it! 
 
 <br>
-Sample usage: <br>
+<h2>Sample usage:</h2> <br>
+
 let superAwesomeColor = UIColor() <br>
 self.view.backgroundColor = superAwesomeColor.convertHexStringToColor("Insert the hex color code string here") <br>
 
