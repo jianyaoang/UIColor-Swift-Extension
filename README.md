@@ -11,10 +11,10 @@ How to use this extension file: <br>
 <h2>Sample usage:</h2> 
 
 let superAwesomeColor = UIColor() <br>
-self.view.backgroundColor = superAwesomeColor.convertHexStringToColor("Insert the hex color code string here") <br>
+self.view.backgroundColor = superAwesomeColor.convertHexStringToColor(**"Insert the hex color code string here"**) <br>
 
 OR <br>
 
 let amazingColor = UIColor() <br>
-self.view.backgroundColor = sophisticatedColor.convertHexToRGB(YOUR UInt32 Color Hex Code)
+self.view.backgroundColor = sophisticatedColor.convertHexToRGB(**YOUR UInt32 Color Hex Code**)
 
