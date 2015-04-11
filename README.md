@@ -6,6 +6,7 @@ This extension file helps you, developers, save time on converting hex code to R
 How to use this extension file: <br>
 1. Drop this extension file into your Swift project <br>
 2. Use it! 
+
 <br>
 Sample usage: <br>
 let superAwesomeColor = UIColor() <br>
