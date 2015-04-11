@@ -1,5 +1,8 @@
 # UIColor-Swift-Extension
-A UIColor Extension written in Swift for convenience purposes.
+A UIColor Extension written in Swift for convenience purposes. <br>
+<br>
+![ScreenShot](/screenshots/apple_swift.png)
+
 
 This extension: <br>
 1. Saves your time from converting Hex codes to RGB colors manually <br>
