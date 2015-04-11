@@ -1,5 +1,6 @@
 # UIColor-Swift-Extension
 A UIColor Extension written in Swift for convenience purposes. <br>
+<br>
 ![ScreenShot](/screenshots/apple_swift.png)
 
 
