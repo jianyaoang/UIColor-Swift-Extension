@@ -2,13 +2,8 @@
 A UIColor Extension written in Swift for convenience purposes.
 
 This extension: <br>
-1. Saves your time from converting Hex codes to RGB colors manually
-2. Gives you more access to more standard or sophisticated colors
-
-How to use this extension file: <br>
-1. Drop this extension file into your Swift project <br>
-2. Use it! 
-
+1. Saves your time from converting Hex codes to RGB colors manually <br>
+2. Gives you access to more standard or sophisticated colors with much convenience
 <br>
 <h2>How to use:</h2> 
 1. Drop this extension file into your Swift project
