@@ -5,7 +5,8 @@ A UIColor Extension written in Swift for convenience purposes. <br>
 
 This extension: <br>
 1. Saves your time from converting Hex codes to RGB colors manually <br>
-2. Gives you access to more standard or sophisticated colors with much convenience
+2. Gives you access to more standard or sophisticated colors with much convenience <br>
+3. Provides you with awesome sample gradient background colors AND easy way to customize your own!
 <br>
 <h2>How to use:</h2> 
 1. Drop this extension file into your Swift project
@@ -21,7 +22,13 @@ self.view.backgroundColor = amazingColor.convertHexToRGB(**Insert your UInt32 Co
 <br>
 **Example3** <br>
 let delightfulColor = UIColor() <br>
-self.view.backgroundColor = delightfulColor.**Insert the delightful colors name**()
+self.view.backgroundColor = delightfulColor.**Insert the delightful colors name**() <br>
+**Example4** <br>
+let exquisiteGradient = UIColor() <br>
+let backgroundView: UIView = exquisiteGradient.**Insert name of gradient**(**Insert targeted view ex. self.view**)
+**Example5** <br>
+let beautifulGradient = UIColor()<br>
+self.view = beautifulGradient.theGradientBackground(**self.view**, hexColor1: **Insert hex color string ex. "eef2f3"**, hexColor2: **Insert hex color string ex. "70e1f5"**)
 
 <h2>Delightful colors:</h2>
 Colors name  | Sample color image
@@ -50,6 +57,17 @@ Darker Indian Red | ![ScreenShot](/screenshots/darkerIndianRed.png)
 Fire Brick | ![ScreenShot](/screenshots/fireBrick.png)
 Silver | ![ScreenShot](/screenshots/silver.png)
 Dim Gray | ![ScreenShot](/screenshots/dimGray.png)
+<br>
+<h2>Gradient Colors</h2>
+<p>You can create your own gradient colors as seen in Example 5. However, this extension has some sweet gradient background available: </p> <br>
+Colors name  | Sample color image
+------------ | ------------------
+FieryOrange  | ![ScreenShot](/screenshots/fieryOrange.png)
+FieryOrange  | ![ScreenShot](/screenshots/fieryOrange.png)
+FieryOrange  | ![ScreenShot](/screenshots/fieryOrange.png)
+FieryOrange  | ![ScreenShot](/screenshots/fieryOrange.png)
+FieryOrange  | ![ScreenShot](/screenshots/fieryOrange.png)
+FieryOrange  | ![ScreenShot](/screenshots/fieryOrange.png)
 
 <br>
-If you liked it, stars are appreciated. If you want, feel free to fork it too. =]
+If you liked it, stars are appreciated. If you want, feel free to fork or pull. =]
