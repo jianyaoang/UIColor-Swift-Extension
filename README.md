@@ -70,5 +70,4 @@ Dim Gray | ![ScreenShot](/screenshots/dimGray.png)
 8. Beach<br>
 9. Metalic<br>
 10. OrangeMango<br>
-<br>
 If you liked it, stars are appreciated. If you want, feel free to fork or pull. =]
