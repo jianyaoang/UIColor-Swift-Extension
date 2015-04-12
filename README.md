@@ -25,7 +25,7 @@ let delightfulColor = UIColor() <br>
 self.view.backgroundColor = delightfulColor.**Insert the delightful colors name**() <br>
 **Example4** <br>
 let exquisiteGradient = UIColor() <br>
-let backgroundView: UIView = exquisiteGradient.**Insert name of gradient**(**Insert targeted view ex. self.view**)
+let backgroundView: UIView = exquisiteGradient.**Insert name of gradient**(**Insert targeted view ex. self.view**)<br>
 **Example5** <br>
 let beautifulGradient = UIColor()<br>
 self.view = beautifulGradient.theGradientBackground(**self.view**, hexColor1: **Insert hex color string ex. "eef2f3"**, hexColor2: **Insert hex color string ex. "70e1f5"**)
@@ -60,15 +60,18 @@ Dim Gray | ![ScreenShot](/screenshots/dimGray.png)
 <br>
 <h2>Gradient Colors</h2>
 <p>You can create your own gradient colors as seen in Example 5. However, this extension has some sweet gradient background available: </p>
-1. FieryOrange <br>
-2. BlueOcean<br>
-3. DeepBlue<br>
-4. MaceWindu<br>
-5. MojitoBlast<br>
-6. LovelyPink<br>
-7. Haze<br>
-8. Beach<br>
-9. Metalic<br>
-10. OrangeMango<br>
-<br>
+
+Name of Gradient  | Gradient 
+------------ | ------------------
+FieryOrange  | ![ScreenShot](/screenshots/fieryOrange.png)
+BlueOcean  | ![ScreenShot](/screenshots/blueOcean.png)
+DeepBlue  | ![ScreenShot](/screenshots/deepBlue.png)
+MaceWindu  | ![ScreenShot](/screenshots/maceWindu.png)
+MojitoBlast  | ![ScreenShot](/screenshots/mojitoBlast.png)
+LovelyPink  | ![ScreenShot](/screenshots/lovelyPink.png)
+Haze  | ![ScreenShot](/screenshots/haze.png)
+Beach  | ![ScreenShot](/screenshots/beach.png)
+Metalic  | ![ScreenShot](/screenshots/metalic.png)
+OrangeMango  | ![ScreenShot](/screenshots/orangeMango.png)
+
 If you liked it, stars are appreciated. If you want, feel free to fork or pull. =]
