@@ -60,14 +60,29 @@ Dim Gray | ![ScreenShot](/screenshots/dimGray.png)
 <br>
 <h2>Gradient Colors</h2>
 <p>You can create your own gradient colors as seen in Example 5. However, this extension has some sweet gradient background available: </p> <br>
-Colors name  | Sample color image
------------- | ------------------
-FieryOrange  | ![ScreenShot](/screenshots/fieryOrange.png)
-FieryOrange  | ![ScreenShot](/screenshots/fieryOrange.png)
-FieryOrange  | ![ScreenShot](/screenshots/fieryOrange.png)
-FieryOrange  | ![ScreenShot](/screenshots/fieryOrange.png)
-FieryOrange  | ![ScreenShot](/screenshots/fieryOrange.png)
-FieryOrange  | ![ScreenShot](/screenshots/fieryOrange.png)
+1. FieryOrange
+2. BlueOcean
+3. DeepBlue
+4. MaceWindu
+5. MojitoBlast
+6. LovelyPink
+7. Haze
+8. Beach
+9. Metalic
+10. OrangeMango
 
+
+<!--Colors name  | Sample color image-->
+<!-------------- | ---------------------------------------------->
+<!--FieryOrange  | ![ScreenShot](/screenshots/fieryOrange.png)-->
+<!--BlueOcean  | ![ScreenShot](/screenshots/blueOcean.png)-->
+<!--DeepBlue  | ![ScreenShot](/screenshots/deepBlue.png)-->
+<!--MaceWindu  | ![ScreenShot](/screenshots/maceWindu.png)-->
+<!--MojitoBlast  | ![ScreenShot](/screenshots/mojitoBlast.png)-->
+<!--LovelyPink  | ![ScreenShot](/screenshots/lovelyPink.png)-->
+<!--Haze  | ![ScreenShot](/screenshots/haze.png)-->
+<!--Beach  | ![ScreenShot](/screenshots/beach.png)-->
+<!--Metalic  | ![ScreenShot](/screenshots/metalic.png)-->
+<!--OrangeMango  | ![ScreenShot](/screenshots/orangeMango.png)-->
 <br>
 If you liked it, stars are appreciated. If you want, feel free to fork or pull. =]
