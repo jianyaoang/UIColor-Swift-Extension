@@ -10,6 +10,61 @@ import UIKit
 
 extension UIColor {
     
+    //MARK: beautiful gradient backgrounds
+    //MARK: quick gradient background methods
+    func fieryOrange(targetedView:UIView) -> UIView {
+        return self.theGradientBackground(targetedView, hexColor1: "FF9500", hexColor2: "FF5E3A")
+    }
+    
+    func blueOcean(targetedView:UIView) -> UIView {
+        return self.theGradientBackground(targetedView, hexColor1: "2BC0E4", hexColor2: "EAECC6")
+    }
+    
+    func deepBlue(targetedView:UIView) -> UIView {
+        return self.theGradientBackground(targetedView, hexColor1: "085078", hexColor2: "85D8CE")
+    }
+    
+    func maceWindu(targetedView:UIView) -> UIView {
+        return self.theGradientBackground(targetedView, hexColor1: "614385", hexColor2: "516395")
+    }
+    
+    func mojitoBlast(targetedView:UIView) -> UIView {
+        return self.theGradientBackground(targetedView, hexColor1: "1D976C", hexColor2: "93F9B9")
+    }
+    
+    func lovelyPink(targetedView:UIView) -> UIView {
+        return self.theGradientBackground(targetedView, hexColor1: "DD5E89", hexColor2: "F7BB97")
+    }
+    
+    func haze(targetedView:UIView) -> UIView {
+        return self.theGradientBackground(targetedView, hexColor1: "8e9eab", hexColor2: "eef2f3")
+    }
+    
+    func beach(targetedView:UIView) -> UIView {
+        return self.theGradientBackground(targetedView, hexColor1: "70e1f5", hexColor2: "ffd194")
+    }
+    
+    func metalic(targetedView:UIView) -> UIView {
+        return self.theGradientBackground(targetedView, hexColor1: "D6CEC3", hexColor2: "E4DDCA")
+    }
+    
+    func orangeMango(targetedView:UIView) -> UIView {
+        return self.theGradientBackground(targetedView, hexColor1: "F09819", hexColor2: "EDDE5D")
+    }
+    
+    //MARK: cutomize gradient background
+    func theGradientBackground(backgroundView: UIView, hexColor1: String, hexColor2:String) -> UIView {
+        
+        let color1: UIColor = self.convertHexStringToColor(hexColor1)
+        let color2: UIColor = self.convertHexStringToColor(hexColor2)
+        
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.frame = backgroundView.bounds
+        gradientLayer.colors = [color1.CGColor, color2.CGColor]
+        backgroundView.layer.insertSublayer(gradientLayer, atIndex: 0)
+        return backgroundView
+    }
+    
     //MARK: simple delightful colors
     
     //MARK: blues
