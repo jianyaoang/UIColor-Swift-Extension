@@ -59,7 +59,7 @@ Silver | ![ScreenShot](/screenshots/silver.png)
 Dim Gray | ![ScreenShot](/screenshots/dimGray.png)
 <br>
 <h2>Gradient Colors</h2>
-<p>You can create your own gradient colors as seen in Example 5. However, this extension has some sweet gradient background available: </p> <br>
+<p>You can create your own gradient colors as seen in Example 5. However, this extension has some sweet gradient background available: </p>
 1. FieryOrange <br>
 2. BlueOcean<br>
 3. DeepBlue<br>
@@ -70,8 +70,6 @@ Dim Gray | ![ScreenShot](/screenshots/dimGray.png)
 8. Beach<br>
 9. Metalic<br>
 10. OrangeMango<br>
-
-
 <!--Colors name  | Sample color image-->
 <!-------------- | ---------------------------------------------->
 <!--FieryOrange  | ![ScreenShot](/screenshots/fieryOrange.png)-->
