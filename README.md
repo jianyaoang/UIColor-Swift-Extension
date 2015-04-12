@@ -15,17 +15,23 @@ This extension: <br>
 
 **Example1** <br>
 let superAwesomeColor = UIColor() <br>
-self.view.backgroundColor = superAwesomeColor.convertHexStringToColor(**"Insert the hex color code string here"**) <br>
+self.view.backgroundColor = superAwesomeColor.convertHexStringToColor(**"Insert the hex color code string here"**) <br> 
+<br>
 **Example2** <br>
 let amazingColor = UIColor() <br>
 self.view.backgroundColor = amazingColor.convertHexToRGB(**Insert your UInt32 Color Hex Code here**)
 <br>
+<br>
 **Example3** <br>
 let delightfulColor = UIColor() <br>
-self.view.backgroundColor = delightfulColor.**Insert the delightful colors name**() <br>
+self.view.backgroundColor = delightfulColor.**Insert the delightful colors name**() 
+<br>
+<br>
 **Example4** <br>
 let exquisiteGradient = UIColor() <br>
-let backgroundView: UIView = exquisiteGradient.**Insert name of gradient**(**Insert targeted view ex. self.view**)<br>
+let backgroundView: UIView = exquisiteGradient.**Insert name of gradient**(**Insert targeted view ex. self.view**)
+<br>
+<br>
 **Example5** <br>
 let beautifulGradient = UIColor()<br>
 self.view = beautifulGradient.theGradientBackground(**self.view**, hexColor1: **Insert hex color string ex. "eef2f3"**, hexColor2: **Insert hex color string ex. "70e1f5"**)
@@ -57,7 +63,7 @@ Darker Indian Red | ![ScreenShot](/screenshots/darkerIndianRed.png)
 Fire Brick | ![ScreenShot](/screenshots/fireBrick.png)
 Silver | ![ScreenShot](/screenshots/silver.png)
 Dim Gray | ![ScreenShot](/screenshots/dimGray.png)
-<br>
+
 <h2>Gradient Colors</h2>
 <p>You can create your own gradient colors as seen in Example 5. However, this extension has some sweet gradient background available: </p>
 
