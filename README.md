@@ -70,17 +70,5 @@ Dim Gray | ![ScreenShot](/screenshots/dimGray.png)
 8. Beach<br>
 9. Metalic<br>
 10. OrangeMango<br>
-<!--Colors name  | Sample color image-->
-<!-------------- | ---------------------------------------------->
-<!--FieryOrange  | ![ScreenShot](/screenshots/fieryOrange.png)-->
-<!--BlueOcean  | ![ScreenShot](/screenshots/blueOcean.png)-->
-<!--DeepBlue  | ![ScreenShot](/screenshots/deepBlue.png)-->
-<!--MaceWindu  | ![ScreenShot](/screenshots/maceWindu.png)-->
-<!--MojitoBlast  | ![ScreenShot](/screenshots/mojitoBlast.png)-->
-<!--LovelyPink  | ![ScreenShot](/screenshots/lovelyPink.png)-->
-<!--Haze  | ![ScreenShot](/screenshots/haze.png)-->
-<!--Beach  | ![ScreenShot](/screenshots/beach.png)-->
-<!--Metalic  | ![ScreenShot](/screenshots/metalic.png)-->
-<!--OrangeMango  | ![ScreenShot](/screenshots/orangeMango.png)-->
 <br>
 If you liked it, stars are appreciated. If you want, feel free to fork or pull. =]
