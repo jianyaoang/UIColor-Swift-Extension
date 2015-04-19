@@ -27,6 +27,8 @@ let delightfulColor = UIColor() <br>
 self.view.backgroundColor = delightfulColor.**Insert the delightful colors name**() 
 <br>
 <br>
+
+The gradient feature in this extension changes the background of the specified view to your choice of gradient. Example 4 and 5 are sample usage of the gradient feature. <br>
 **Example4** <br>
 let exquisiteGradient = UIColor() <br>
 let backgroundView: UIView = exquisiteGradient.**Insert name of gradient**(**Insert targeted view ex. self.view**)
