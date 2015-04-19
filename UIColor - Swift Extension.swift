@@ -181,11 +181,11 @@ extension UIColor {
             hexColorString = hexColorString.substringFromIndex(advance(hexColorString.startIndex, 1))
         }
         
-        if countElements(hexColorString) != 6 {
+        if count(hexColorString) != 6 {
             var error: NSError?
             NSException.raise("Hex Color String Error", format: "Error: Invalid hex color string. Please ensure hex color string has 6 elements", arguments: getVaList([error ?? "nil"]))
         }
-        
+                
         var hexColorRGBValue:UInt32 = 0
         NSScanner(string: hexColorString).scanHexInt(&hexColorRGBValue)
         
