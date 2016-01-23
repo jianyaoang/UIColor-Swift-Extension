@@ -178,10 +178,10 @@ extension UIColor {
         var hexColorString = hexString.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet()).uppercaseString
         
         if hexColorString.hasPrefix("#") {
-            hexColorString = hexColorString.substringFromIndex(advance(hexColorString.startIndex, 1))
+            hexColorString = hexColorString.substringFromIndex(hexColorString.startIndex.advancedBy(1))
         }
         
-        if count(hexColorString) != 6 {
+        if hexColorString.characters.count != 6 {
             var error: NSError?
             NSException.raise("Hex Color String Error", format: "Error: Invalid hex color string. Please ensure hex color string has 6 elements", arguments: getVaList([error ?? "nil"]))
         }
