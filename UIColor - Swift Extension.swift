@@ -188,8 +188,7 @@ extension UIColor {
         }
         
         if hexColorString.characters.count != 6 {
-            var error: NSError?
-            NSException.raise(NSExceptionName(rawValue: "Hex Color String Error"), format: "Error: Invalid hex color string. Please ensure hex color string has 6 elements", arguments: getVaList([error ?? "nil"]))
+            NSException.raise(NSExceptionName(rawValue: "Hex Color String Error"), format: "Error: Invalid hex color string. Please ensure hex color string has 6 elements", arguments: getVaList(["nil"]))
         }
         
         var hexColorRGBValue:UInt32 = 0
